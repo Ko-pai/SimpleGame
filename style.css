@@ -1,0 +1,25 @@
+#canvas1{
+    width: 600px;
+    height: 600px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.controls{
+    position: absolute;
+    z-index: 10;
+    
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+.controls, select, option {
+    font-size: 24px;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1573869908170-64b53a60d8da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+}
